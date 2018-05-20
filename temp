@@ -1,0 +1,131 @@
+<!-- =======
+    <!-- Download Section -->
+    <section id="works" class="download-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+
+          <h1>My WORKS</h1>
+          <div class="jumbotron">
+
+          <div class="row">
+          <div class="col">
+            <h3 class="app-titles">SNAPTASTIC</h3>
+            <p><br/> A fun-tastic app to add fun your Snaps
+            <br/> Fun Masks | Filters | Save to Gallery| Download Snaps | Comments </p>
+            <video class="pull-left" width="320" height="240" controls autoplay>
+              <source src="img/snaptastic_app.mov" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p></p>
+            <a href="https://github.com/tnpriyanka12/Snaptastic" class="btn btn-default btn-sm">GITHUB</a>
+            <a href="https://snaptastic.herokuapp.com/" class="btn btn-default btn-sm">DEMO</a>
+            <p class="technologies"><u>Highlights</u>
+              <br/>
+              HTML5 Media, HTML5 Canvas, Face Detection JS Library, Cloudinary, GIF Encoding and decoding JS Library, Fabric.js</p>
+
+          </div>
+          </div>
+          </div>
+
+          <div class="jumbotron">
+            <div class="row">
+            <div class="col">
+              <h3 class="app-titles">HAPPY HOMES </h3>
+              <p><br/> Rental Properties website, like AIRBNB
+              <br/> User Login & SignUp , Book property, Host your property</p>
+              <video   class="pull-left" width="320" height="240" controls autoplay>
+                <source src="img/happyhomes.mov" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+              <p></p>
+              <a href="https://github.com/tnpriyanka12/rental-marketplace"  class="btn btn-default btn-sm">GITHUB</a>
+              <a href="https://rental-marketplace.herokuapp.com/" class="btn btn-default btn-sm">DEMO</a>
+              <p class="technologies"><u>Highlights</u>
+                <br/>
+                RubyonRails, Cloudinary, User AUthorization & Authentication, Dates Datatype, BootStrap, MVC architechture</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="jumbotron">
+            <div class="row">
+            <div class="col">
+              <h3 class="app-titles">TIC TAC TOE</h3>
+              <p><br/> The age old game with Single & Multiple Play modes & AI (not very intelligent) mode!</p>
+              <video  class="pull-left" width="320" height="240" controls autoplay>
+                <source src="img/ttt_1.m4v" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+              <p></p>
+              <a href="https://github.com/tnpriyanka12/tictactoe" class="btn btn-default btn-sm">GITHUB</a>
+              <a href="https://tnpriyanka12.github.io/tictactoe/" class="btn btn-default btn-sm">DEMO</a>
+              <p class="technologies"><u>Highlights</u>
+                <br/>
+                Pure HTML/CSS/JS , JQuery, Favicon, SIngle/Multiple Play Modes, AI Playmodes</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="jumbotron">
+            <div class="row">
+            <div class="col">
+              <h3 class="app-titles"> FUNBRAIN </h3>
+              <p> <br/> JS based games for Kids <br/>
+              GAMES: Alphabet | Number | Music | ShoutOut </p>
+              <video   class="pull-left" width="320" height="240" controls autoplay>
+                <source src="img/funbrain_app.mov" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+              <p></p>
+              <a href="https://github.com/tnpriyanka12/tictactoe" class="btn btn-default btn-sm">GITHUB</a>
+              <a href="https://tnpriyanka12.github.io/tictactoe/" class="btn btn-default btn-sm">DEMO</a>
+              <p class="technologies"><u>Highlights</u>
+                <br/>
+                JS games, RubyonRails, HighCharts, Cloudinary, Voice to Text converter JS Library, Rails backend, JS-Rails AJAX Requests, BootStrap</p>
+            </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact me</h2>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="mailto:tnpriyanka12@gmail.com?Subject=Ref: Via Portfolio%20again" target="_top">
+                  <i class="fa fa-envelope fa-fw"></i>
+                  <span class="network-name">E-mail</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="">
+                  <i class="fa fa-phone fa-fw"></i>
+                  <span class="network-name">+61 40 5671111</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/priyanka-narasimhan">
+                  <i class="fa fa-envelope fa-fw"></i>
+                  <span class="network-name">LinkedIn</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/tnpriyanka12">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+>>>>>>> 4ea5e325922d221e03f02d11083412755c2cab95 -->

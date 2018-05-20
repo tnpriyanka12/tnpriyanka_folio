@@ -297,7 +297,7 @@ img::-moz-selection {
   float: right;
   font-size: 10px;
 }
-<<<<<<< HEAD
+
 .demo{
  writing-mode: tb-rl;
 }
@@ -308,6 +308,21 @@ img::-moz-selection {
   margin-left: 350px;
   margin-top: -35px;
   width: 400px;
+}
+.myname{
+  margin-left: -100px;
+}
+
+@media (max-width: 767px) {
+  .right{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: -35px;
+    width: 400px;
+  }
+  .myname{
+    margin-left: -300px;
+  }
 }
 
 .projects{

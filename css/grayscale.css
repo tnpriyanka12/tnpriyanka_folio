@@ -309,8 +309,13 @@ img::-moz-selection {
   margin-top: -35px;
   width: 400px;
 }
+.main-p{
+  font-size: 18px;
+}
 .myname{
   margin-left: -100px;
+  font-size: 18px;
+  
 }
 
 @media (max-width: 767px) {

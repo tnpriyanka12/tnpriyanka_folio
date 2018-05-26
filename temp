@@ -1,131 +1,227 @@
-<!-- =======
-    <!-- Download Section -->
-    <section id="works" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
+<!-- Intro Header -->
+<div class="masthead">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 .col-xs-12 mx-auto main-p">
+          <h1>< HI ! /> </h1>
+          <b><p class="myname">Priyanka = { <br/>
+            <p class="right">
+            <ul>  <br/>
+            </ul>
 
-          <h1>My WORKS</h1>
-          <div class="jumbotron">
+            <u>Skills: <br/></u>
+            <ul>
+            HTML5  CSS  JS  JQuery  AJAX  RESTful APIs <br/>
+            ReactJS  VueJS <br/>
+            RubyOnRails  NodeJS <br/>
+            </ul>
+            <u>Version Control: <br/></u>
+            <ul>SVN  GitHub <br/>
+            </ul>
 
-          <div class="row">
-          <div class="col">
-            <h3 class="app-titles">SNAPTASTIC</h3>
-            <p><br/> A fun-tastic app to add fun your Snaps
-            <br/> Fun Masks | Filters | Save to Gallery| Download Snaps | Comments </p>
-            <video class="pull-left" width="320" height="240" controls autoplay>
-              <source src="img/snaptastic_app.mov" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>
-            <p></p>
-            <a href="https://github.com/tnpriyanka12/Snaptastic" class="btn btn-default btn-sm">GITHUB</a>
-            <a href="https://snaptastic.herokuapp.com/" class="btn btn-default btn-sm">DEMO</a>
-            <p class="technologies"><u>Highlights</u>
-              <br/>
-              HTML5 Media, HTML5 Canvas, Face Detection JS Library, Cloudinary, GIF Encoding and decoding JS Library, Fabric.js</p>
+            <u>Hosting: <br/></u>
+            <ul>Heroku  GitHub <br/>
+            </ul>
 
-          </div>
-          </div>
-          </div>
+            <u> Contact: <br/></u>
+            <ul>phone: <span class="phone-number">+61 405671111 </span><br/>
+            email: <span class="phone-number">tnpriyanka12@gmail.com </span></b><br/>
+            </ul>
+          </ul>
 
-          <div class="jumbotron">
-            <div class="row">
-            <div class="col">
-              <h3 class="app-titles">HAPPY HOMES </h3>
-              <p><br/> Rental Properties website, like AIRBNB
-              <br/> User Login & SignUp , Book property, Host your property</p>
-              <video   class="pull-left" width="320" height="240" controls autoplay>
-                <source src="img/happyhomes.mov" type="video/mp4">
-              Your browser does not support the video tag.
-              </video>
-              <p></p>
-              <a href="https://github.com/tnpriyanka12/rental-marketplace"  class="btn btn-default btn-sm">GITHUB</a>
-              <a href="https://rental-marketplace.herokuapp.com/" class="btn btn-default btn-sm">DEMO</a>
-              <p class="technologies"><u>Highlights</u>
-                <br/>
-                RubyonRails, Cloudinary, User AUthorization & Authentication, Dates Datatype, BootStrap, MVC architechture</p>
+          } </p>
+           </p>
+          <br/>
+          <p>Junior Developer | Sydney</p>
+          <a href="#about" class="btn btn-circle js-scroll-trigger">
+            <i class="fa fa-angle-double-down animated"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- About Section -->
+<section id="about" class="content-section text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2>About Me</h2>
+        <p>A junior web developer, really passionate about coding and creating beautiful designs. I took up volunteer graphic design projects and gradually transitioned to web development because that was what I connected more with. I wanted to explore more, so after a short maternity break, I completed an Immersive course on Web development, where I have done several projects with exciting technologies. I have worked on a good range of JS libraries and frameworks. It was such a great experience and I learnt so much valuable knowledge that I would love to apply to a new workplace! </p>
+        <p>I love to explore the latest technologies and I'm currently mastering ReactJS and NodeJS. Also exploring ThreeJS
+        <p>Worked on Voice based JS Library that converts speech to text and compares against a known text value
+          (Check FunBrain below)
+          <!-- <br/><a href=""> Check the project here <a/></p> -->
+        <p>Worked on Face Recognition JS Library that can detect your facial features through Webcam
+            <br/>(Check Snaptastic below)
+          <!-- <br/><a href=""> Check the project here <a/></p> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Works Section -->
+<section id="works" class="download-section content-section text-center">
+  <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">
+        <small>MY WORKS</small>
+      </h1>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./img/project4.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Snaptastic</a>
+              </h4>
+              <p class="card-text">Photo App which uses the Face Detection, HTML5 WebCam & Canvas and JQuery controlled
+              <button class="btn btn-outline-secondary" onclick="location.href='https://github.com/tnpriyanka12/project3';">GITHUB</button>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://snaptastic.herokuapp.com/';">DEMO</button>
+              </p>
             </div>
-            </div>
-          </div>
-
-          <div class="jumbotron">
-            <div class="row">
-            <div class="col">
-              <h3 class="app-titles">TIC TAC TOE</h3>
-              <p><br/> The age old game with Single & Multiple Play modes & AI (not very intelligent) mode!</p>
-              <video  class="pull-left" width="320" height="240" controls autoplay>
-                <source src="img/ttt_1.m4v" type="video/mp4">
-              Your browser does not support the video tag.
-              </video>
-              <p></p>
-              <a href="https://github.com/tnpriyanka12/tictactoe" class="btn btn-default btn-sm">GITHUB</a>
-              <a href="https://tnpriyanka12.github.io/tictactoe/" class="btn btn-default btn-sm">DEMO</a>
-              <p class="technologies"><u>Highlights</u>
-                <br/>
-                Pure HTML/CSS/JS , JQuery, Favicon, SIngle/Multiple Play Modes, AI Playmodes</p>
-            </div>
-            </div>
-          </div>
-
-          <div class="jumbotron">
-            <div class="row">
-            <div class="col">
-              <h3 class="app-titles"> FUNBRAIN </h3>
-              <p> <br/> JS based games for Kids <br/>
-              GAMES: Alphabet | Number | Music | ShoutOut </p>
-              <video   class="pull-left" width="320" height="240" controls autoplay>
-                <source src="img/funbrain_app.mov" type="video/mp4">
-              Your browser does not support the video tag.
-              </video>
-              <p></p>
-              <a href="https://github.com/tnpriyanka12/tictactoe" class="btn btn-default btn-sm">GITHUB</a>
-              <a href="https://tnpriyanka12.github.io/tictactoe/" class="btn btn-default btn-sm">DEMO</a>
-              <p class="technologies"><u>Highlights</u>
-                <br/>
-                JS games, RubyonRails, HighCharts, Cloudinary, Voice to Text converter JS Library, Rails backend, JS-Rails AJAX Requests, BootStrap</p>
-            </div>
-            </div>
-          </div>
-
           </div>
         </div>
-    </section>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./img/project3.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Fun Brain</a>
+              </h4>
+              <p class="card-text">This project uses Rails, with JavaScript coded games, Voice Recognition API</p>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://github.com/sahana-vajrakumar/project-2';">GITHUB</button>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://fun-brain.herokuapp.com/';">DEMO</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./img/project2.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Happy Homes</a>
+              </h4>
+              <p class="card-text">This is a Ruby on Rails Project which also used Bootstrap3</p>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://github.com/tnpriyanka12/rental-marketplace';">GITHUB</button>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://rental-marketplace.herokuapp.com/';">DEMO</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./img/project1.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">TIC TAC TOE</a>
+              </h4>
+              <p class="card-text">Check my game done in pure HTML, CSS, JQuery with a twist literally</p>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://github.com/tnpriyanka12/tictactoe';">GITHUB</button>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://tnpriyanka12.github.io/tictactoe';" >DEMO</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./img/ReactWeather_CSS.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">React Weather APP</a>
+              </h4>
+              <p class="card-text">React Weather App - Weather API call, ReactJS, SVGs</p>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://github.com/tnpriyanka12/react-weather-css';">GITHUB</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./img/ReactWeather_noCSS.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">CSS SVG Weather App</a>
+              </h4>
+              <p class="card-text">React Weather App - Weather API call, ReactJS, SIMPLE CSS</p>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://github.com/tnpriyanka12/react-weather-app';">GITHUB</button>
 
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact me</h2>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="mailto:tnpriyanka12@gmail.com?Subject=Ref: Via Portfolio%20again" target="_top">
-                  <i class="fa fa-envelope fa-fw"></i>
-                  <span class="network-name">E-mail</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="">
-                  <i class="fa fa-phone fa-fw"></i>
-                  <span class="network-name">+61 40 5671111</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/priyanka-narasimhan">
-                  <i class="fa fa-envelope fa-fw"></i>
-                  <span class="network-name">LinkedIn</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/tnpriyanka12">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./img/wof.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Wheel of Fortune</a>
+              </h4>
+              <p class="card-text">Side Project - HTML5 Canvas, Sectors, JQuery & Maths!</p>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://github.com/tnpriyanka12/wheel-of-fortune';">GITHUB</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./img/tetris.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Tetris</a>
+              </h4>
+              <p class="card-text">Side Project. For the love of JQuery </p>
+              <button class="btn btn-outline-secondary" onclick="location.href='https://github.com/tnpriyanka12/tetris_try';">GITHUB</button>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+      <!-- /.row -->
 
 
-    <!-- Footer -->
->>>>>>> 4ea5e325922d221e03f02d11083412755c2cab95 -->
+
+    </div>
+    <!-- /.container -->
+
+
+</section>
+
+<!-- About Section -->
+<section id="contact" class="text-center">
+      <h3>Get In Touch</h3>
+      <i class="icon-phone"></i> Phone : <span class="phone-number">+61 40 5671111 </span><br/>
+        <i class="icon-mail2"></i> Email: <span class="phone-number">tnpriyanka12@gmail.com</span> <br/>
+</section>
+
+<!-- Footer -->
+<hr/>
+
+
+
+navbar
+
+
+<!-- Navigation -->
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">PRIYANKA</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>

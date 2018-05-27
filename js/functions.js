@@ -37,7 +37,7 @@ function hideContact() {
     $('#contact').css({
       visibility: 'hidden',
     }); //css
-    $('#contact').removeClass('rotateInDownRight');
+    $('#contact').removeClass('zoomIn');
 
 }
 
@@ -100,7 +100,7 @@ $('#sec-contact').click(function(){
       $('#contact').css({
         visibility: 'visible',
       }); //css
-      $(skillClass).addClass('zoomIn');
+      $('#contact').addClass('zoomIn');
 
   } else {
     $('#contact').css({ visibility: 'hidden'}); //css

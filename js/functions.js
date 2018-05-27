@@ -1,6 +1,17 @@
 
 $(document).ready(function() {
+  let mobileEnabled=false;
+  let skillClass= '#skills';
+
   console.log('functions.js included');
+
+  if(window.screen.width < 480)
+   {
+      mobileEnabled=true;
+      skillClass = skillClass+'-mobile';
+   }
+
+
 
 
 //Hide #projects no matter what
@@ -8,16 +19,16 @@ function hideProjects() {
     $('#projects').css({
       visibility: 'hidden',
     }); //css
-    $('#skills').removeClass('rotateInDownRight');
+    $(skillClass).removeClass('rotateInDownRight');
 
 }
 
-//Hide #skills no matter what
+//HideskillClassno matter what
 function hideSkills() {
-    $('#skills').css({
+    $(skillClass).css({
       visibility: 'hidden',
     }); //css
-    $('#skills').removeClass('rotateInDownRight');
+    $(skillClass).removeClass('rotateInDownRight');
 
 }
 
@@ -40,7 +51,7 @@ $('#sec-project').click(function(){
         visibility: 'visible'
       }); //css
   $('#projects').addClass('rotateInDownLeft');
-  $('#skills').removeClass('rotateInDownRight');
+  $(skillClass).removeClass('rotateInDownRight');
 
   } else {
     hideProjects(); //css
@@ -50,11 +61,11 @@ $('#sec-project').click(function(){
 
 
   //If projects is clicked when skills is already visible
-  if( $('#skills').css('visibility') === 'visible') {
+  if( $(skillClass).css('visibility') === 'visible') {
     $('#projects').addClass('rotateInDownLeft');
   }
   //If contact is clicked when skills is already visible
-  if( $('#skills').css('visibility') === 'visible') {
+  if( $(skillClass).css('visibility') === 'visible') {
     $('#contact').addClass('rotateInDownLeft');
   }
 
@@ -65,16 +76,16 @@ $('#sec-project').click(function(){
 $('#sec-skills').click(function(){
   hideProjects();
   hideContact();
-  if( $('#skills').css('visibility') === 'hidden') {
-      $('#skills').css({
+  if( $(skillClass).css('visibility') === 'hidden') {
+      $(skillClass).css({
         visibility: 'visible',
       }); //css
-  $('#skills').addClass('rotateInDownRight');
+  $(skillClass).addClass('rotateInDownRight');
   $('#projects').removeClass('rotateInDownLeft');
   } else {
 
-    $('#skills').css({ visibility: 'hidden'}); //css
-    $('#skills').removeClass('rotateInDownRight');
+    $(skillClass).css({ visibility: 'hidden'}); //css
+    $(skillClass).removeClass('rotateInDownRight');
 
 
   }
@@ -89,7 +100,7 @@ $('#sec-contact').click(function(){
       $('#contact').css({
         visibility: 'visible',
       }); //css
-      $('#skills').addClass('zoomIn');
+      $(skillClass).addClass('zoomIn');
 
   } else {
     $('#contact').css({ visibility: 'hidden'}); //css

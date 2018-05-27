@@ -38,13 +38,13 @@ html, body , #wrapper {
 }
 .name{font-size: 40px;}
 
-@media (max-width: 1000px) {
+@media (max-width: 480px) {
     .center{
       left:25%;
-      top:25%;
+      top:10%;
       position:absolute;
       width:50%;
-      height:300px;
+      height:250px;
       text-align:center;
       vertical-align: center;
       max-width:500px;
@@ -52,7 +52,7 @@ html, body , #wrapper {
     }
 
 }
-@media (min-width: 1000px) {
+@media (min-width: 480px) {
     .center{
       left:50%;
       top:25%;
@@ -127,19 +127,26 @@ footer p {
   font-size: 10px;
 }
 
-#projects, #skills, #contact{
+
+#projects, #skills, #contact, #skills-mobile{
   visibility: hidden;
-  max-width: 1000px;
-  max-height: 1000px;
+  max-width: 100%;
+  max-height: 100%;
   position: absolute;
   top: 100%;
 }
 
-#projects{
-  left: 0px;
+#projects, #skills{
+  left: 0%;
 }
-#skills{
-  right: 0px;
+
+@media (max-width: 480px) {
+  #projects, #skills, #skills-mobile{
+    left: -20%;
+  }
+   #contact{
+     left: -40%;
+   }
 }
 #contact{
   font-family: sans-serif;

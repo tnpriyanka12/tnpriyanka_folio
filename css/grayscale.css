@@ -186,3 +186,7 @@ footer{
   padding: 0;
   margin: 1em;
 }
+
+table button{
+  cursor: pointer;
+}
